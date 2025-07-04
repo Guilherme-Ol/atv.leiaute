@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+height: 100px;
+background-color: #141f2b;
+color: #f02225;
+text-align: center;
+padding: 10px 0;
+}
+
+.sidebar {
+min-height: calc(100vh - 100px - 50px);
+box-sizing: border-box;
+float: left;
+width: 25%;
+padding: 15px;
+background-color: #202e3d;
+color: #ee2c2f;
+}
+
+.main-content {
+min-height: calc(100vh - 100px - 50px);
+box-sizing: border-box;
+float: left;
+width: 75%;
+padding: 15px;
+background-color: #f1f1f1;
+color: #000;
+}
+
+footer {
+height: 50px;
+width: 100%;
+float: left;
+background-color: #19242f;
+color: #ff4043;
+text-align: center;
+padding: 15px 0;
+height: 50px;
+}
+
+
